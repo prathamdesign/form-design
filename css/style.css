@@ -1,0 +1,136 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	font-family: roboto;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.main_form
+{
+	width: 70%;
+	height: 500px;
+	box-shadow: 2px 3px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.flex
+{
+	display: flex;
+}
+.main_form > div
+{
+	width: 50%;
+	height: 100%;
+}
+.left_side
+{
+	background: linear-gradient(-115deg , rgba(255,0,178,0.3) , rgba(0,161,255,0.5)) , url(../image/laptop-girl.jpg);
+	background-size: cover;
+	background-position: 60%;
+}
+.right_side
+{
+	padding: 80px 90px;
+}
+.right_side h2
+{
+	color: #6B838D;
+	border-bottom: 3px solid #D74D80;
+	display: inline-block;
+}
+.input_box
+{
+	margin-top: 15px;
+}
+.input_box label
+{
+	font-size: 14px;
+	color: #A1B0B6;
+	font-weight:500;
+	letter-spacing: 1.2px;
+}
+.input_box input
+{
+	display: block;
+	width: 100%;
+	padding: 8px 10px;
+	border-radius: 20px;
+	border: 1.5px solid #7C8A8F;
+	margin-top: 5px;
+	color: #D74D80;
+}
+input:focus
+{
+	outline: none;
+	border-color: #D74D80;
+}
+.input_checkbox
+{
+	margin-top: 5px;
+}
+.input_checkbox span
+{
+	font-size: 14px;
+}
+.btn_submit
+{
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	padding: 8px 0;
+	background-color: #FF4584;
+	border: none;
+	border-radius: 20px;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	box-shadow: 0 5px 20px 0 rgba(255,69,132, 0.25);
+	cursor: pointer;
+}
+.register_link
+{
+	margin-top: 10px;
+	font-size: 14px;
+}
+.register_link a
+{
+	color: #D74D80;
+}
+.social_media ul
+{
+	display: flex;
+	list-style: none;
+	margin-top: 20px;
+	justify-content: center;
+}
+.social_media ul li a
+{
+	height: 42px;
+	width: 42px;
+	background-color: #63808C;
+	display: block;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	transition: .2s ease;
+}
+/*.social_media ul li:nth-child(2)
+{
+	margin: 0 8px;
+}*/
+.social_media ul li + li
+{
+	margin-left: 15px;
+}
+.social_media ul li a:hover
+{
+	background-color: #FF4584;
+	transform: translateY(-5px);
+}
